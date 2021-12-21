@@ -1,0 +1,50 @@
+
+### check
+POST http://localhost:3000/workouts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "squat",
+    "reps": 10,
+    "weight": 300,
+    "unit": "lbs",
+    "date": "01-01-20"
+}
+
+### check
+GET http://localhost:3000/workouts HTTP/1.1
+
+### check
+GET http://localhost:3000/workouts/61acda1ea292957b84ec8ad2 HTTP/1.1
+
+### check
+GET http://localhost:3000/workouts/?name=deadlift HTTP/1.1
+
+### check
+PUT http://localhost:3000/workouts/61acda83a292957b84ec8ad8 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "squat",
+    "reps": 10,
+    "weight": 500,
+    "unit": "lbs",
+    "date": "01-01-20"
+}
+
+### check
+DELETE http://localhost:3000/workouts/61acda83a292957b84ec8ad8 HTTP/1.1
+
+
+### check
+POST http://localhost:3000/workouts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "deadlift",
+    "reps": 10,
+    "weight": 1000,
+    "unit": "lbs",
+    "date": "02-02-20"
+}
+
