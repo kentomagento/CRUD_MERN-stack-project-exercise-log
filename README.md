@@ -21,7 +21,7 @@ Here's a walkthrough of implemented user stories:
 
 <a href='https://imgur.com/a/v8NENje' title='Video Walkthrough' width='' alt='Video Walkthrough' > GIF LINK </a>
 
-GIF created with Quicktime
+![Alt Text](https://github.com/kentomagento/CRUD_MERN-stack-project-exercise-log/blob/master/reactApp1.0.gif)
 
 ## Notes
 
